@@ -1,0 +1,675 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Racing+Sans+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 25px;
+  background: radial-gradient(
+      ellipse farthest-corner at right bottom,
+      #fedb37 0%,
+      #fdb931 8%,
+      #9f7928 30%,
+      #8a6e2f 40%,
+      transparent 80%
+    ),
+    radial-gradient(
+      ellipse farthest-corner at left top,
+      #ffffff 0%,
+      #ffffac 8%,
+      #d1b464 25%,
+      #5d4a1f 62.5%,
+      #5d4a1f 100%
+    );
+  font-weight: bold;
+}
+.top-bar #locationmark {
+  text-decoration: underline 2px solid;
+  font-size: large;
+}
+
+.top-bar span {
+  color: #fff;
+  font-size: auto;
+}
+
+.top-bar a {
+  color: #fff;
+  font-size: large;
+}
+
+.top-bar a:hover {
+  color: #403f45;
+}
+.search-bar {
+  border-radius: 1rem;
+  padding: 0.5rem;
+  border-color: #fff;
+}
+.search-label {
+  margin-left: 1rem;
+}
+
+/* 2nd nav css */
+
+nav {
+  margin-bottom: 0px;
+  height: 90px;
+  width: 100%;
+  background: #403f45;
+}
+
+nav a:hover {
+  color: #d09d1f;
+  border: 1px solid #ffdd43;
+  transition: 0.5s;
+}
+
+img {
+  width: 320px;
+}
+
+nav a {
+  color: #9f7928;
+  border: 1px solid transparent;
+  padding: 7px 10px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+nav #icon {
+  color: #ffdd43;
+  font-size: 25px;
+  line-height: 75px;
+  float: right;
+  margin-right: 20px;
+  cursor: pointer;
+  display: none;
+}
+
+nav ul {
+  float: right;
+  margin-right: 70px;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 8px;
+  letter-spacing: 1px;
+  padding-top: 2rem;
+}
+
+.menu-bar {
+  display: inline-block;
+  /* bottom: 5rem; */
+  font-weight: bolder;
+  display: inline;
+  /* float: right; */
+  padding-top: 30px;
+  font-weight: bolder;
+}
+
+.fa-solid {
+  color: #c1bfbf;
+}
+
+#iconinsta {
+  font-size: x-large;
+}
+
+#iconfb {
+  font-size: x-large;
+}
+
+.logo {
+  display: inline;
+}
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Slider-Section */
+
+.imgslider {
+  width: 100%;
+  height: 600px;
+  background-image: url(slidesimg/cyclepic.jpg);
+  background-size: 100% 100%;
+  animation: changeimage 18s linear infinite;
+}
+
+@keyframes changeimage {
+  0% {
+    background-image: url(slidesimg/cyclepic.jpg);
+  }
+  25% {
+    background-image: url(slidesimg/slide2.jpg);
+  }
+  50% {
+    background-image: url(slidesimg/slide3img.jpg);
+  }
+  75% {
+    background-image: url(slidesimg/slide4img.jpg);
+  }
+}
+
+/* mid container css */
+
+.mid-container {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: radial-gradient(
+      ellipse farthest-corner at right bottom,
+      #fedb37 0%,
+      #fdb931 8%,
+      #9f7928 30%,
+      #8a6e2f 40%,
+      transparent 80%
+    ),
+    radial-gradient(
+      ellipse farthest-corner at left top,
+      #ffffff 0%,
+      #ffffac 8%,
+      #d1b464 25%,
+      #5d4a1f 62.5%,
+      #5d4a1f 100%
+    );
+}
+
+.mid-body .brand-name {
+  font-size: 8rem;
+  font-weight: 700;
+  line-height: 1em;
+}
+.mid-body .brand-name span {
+  color: #403f45;
+  font-size: 150%;
+}
+
+button {
+  width: 18rem;
+  height: 4rem;
+  font-size: xx-large;
+  font-style: italic;
+  background: transparent;
+  cursor: pointer;
+  background: transparent;
+  border: 2px solid #ffff;
+  font-weight: bolder;
+  line-height: 5rem;
+}
+
+.mid-body .intro-link {
+  font-style: italic;
+  color: #fff;
+  font-size: 2rem;
+  font-family: sans-serif;
+  letter-spacing: 3px;
+  text-decoration: none;
+  font-family: "Racing Sans One", cursive;
+}
+
+.mid-body .brand-name {
+  font-size: 6.5rem;
+  font-weight: 700;
+  line-height: 1em;
+  color: #fff;
+}
+
+.intro {
+  color: #fff;
+  font-style: italic;
+  font-family: "Racing Sans One", cursive;
+}
+
+/* CATEGORIES SECTION CSS  */
+
+.cat-h1 {
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 5px;
+  color: #403f45;
+  font-family: "Racing Sans One", cursive;
+  background: radial-gradient(
+      ellipse farthest-corner at right bottom,
+      #fedb37 0%,
+      #fdb931 8%,
+      #9f7928 30%,
+      #8a6e2f 40%,
+      transparent 80%
+    ),
+    radial-gradient(
+      ellipse farthest-corner at left top,
+      #ffffff 0%,
+      #ffffac 8%,
+      #d1b464 25%,
+      #5d4a1f 62.5%,
+      #5d4a1f 100%
+    );
+}
+
+#cat-section {
+  width: 100%;
+  height: 100%;
+  padding: 7% 0%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background: radial-gradient(
+      ellipse farthest-corner at right bottom,
+      #fedb37 0%,
+      #fdb931 8%,
+      #9f7928 30%,
+      #8a6e2f 40%,
+      transparent 80%
+    ),
+    radial-gradient(
+      ellipse farthest-corner at left top,
+      #ffffff 0%,
+      #ffffac 8%,
+      #d1b464 25%,
+      #5d4a1f 62.5%,
+      #5d4a1f 100%
+    );
+}
+.categories {
+  width: 600px;
+  height: 400px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+.cat-img {
+  width: 600px;
+  height: 350px;
+  box-shadow: 10px 0px 10px 5px #403f45;
+  border-radius: 1rem;
+}
+.cat-img:hover {
+  box-shadow: 4px 5px 5px 4px lime;
+  border-radius: 10px;
+}
+/* Footer section css */
+
+.footer {
+  padding: 6% 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #24262b;
+  flex-wrap: wrap;
+}
+
+.footer .items {
+  width: 17rem;
+  margin: 1rem 2rem;
+  text-align: center;
+}
+.footer a:hover {
+  color: red;
+}
+.footer .items h4 {
+  color: gold;
+  font-family: "Racing Sans One", cursive;
+}
+
+.footer #items-1 {
+  line-height: 2rem;
+}
+
+#items-2 {
+  line-height: 2rem;
+}
+
+#items-3 {
+  line-height: 3rem;
+}
+
+.footer-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+#social-icons {
+  letter-spacing: 0.75rem;
+  color: #d09d1f;
+}
+
+.copyright {
+  color: #8f8f8f;
+  text-align: center;
+  background-color: #24262b;
+}
+
+/* CYCLE CATEGORIES CSS  */
+
+/* Geared,non-geared, kids, fatbikes, womens, citybikes, or All categories css */
+#geared {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: aquamarine;
+}
+
+.grid-card {
+  /* row-gap: 0.75rem;
+  justify-content: space-around;
+  align-items: center; */
+  /* padding: 3.5%; */
+  row-gap: 10px;
+}
+.geared-heading {
+  text-align: center;
+  font-size: 4rem;
+  font-family: "Racing Sans One", cursive;
+}
+.card-title {
+  font-family: "Racing Sans One", cursive;
+}
+.cut-price {
+  text-decoration: line-through;
+  font-size: 0.75rem;
+  margin-left: 5px;
+}
+.card {
+  margin: 10px;
+}
+/* media queries of  top - NAvigations:-  */
+
+@media (max-width: 1048px) {
+  img {
+    width: 320px;
+  }
+
+  nav ul {
+    margin-right: 20px;
+  }
+
+  nav a {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 890px) {
+  nav #icon {
+    display: block;
+  }
+
+  nav ul.show {
+    left: 0;
+    margin-top: 16.5%;
+  }
+
+  nav ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #403f45;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+
+  nav li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+
+  nav a {
+    font-size: 20px;
+  }
+
+  a:hover {
+    border: none;
+    color: #ffdd43;
+  }
+
+  nav ul.show {
+    left: 0;
+    margin-top: 16.5%;
+  }
+
+  .top-bar #locationmark {
+    text-decoration: underline 1px solid;
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 505px) {
+  .top-bar {
+    font: size 8px;
+  }
+
+  .top-bar #locationmark {
+    font-size: 8px;
+  }
+
+  .footer {
+    font-size: AUTO;
+  }
+
+  .row {
+    height: fit-content;
+    font-size: medium;
+  }
+
+  .container {
+    height: fit-content;
+    font-size: medium;
+  }
+}
+
+@media (max-width: 630px) {
+  .cat-img {
+    height: 300px;
+    width: 350px;
+  }
+
+  .categories {
+    width: 400px;
+    height: 400px;
+    display: inherit;
+  }
+  .dev1-img {
+    width: 350px;
+    height: 350px;
+  }
+  .dev-card {
+    width: 400px;
+    height: 400px;
+    display: inherit;
+  }
+}
+
+@media (max-width: 400px) {
+  .cat-h1 {
+    font-size: 1.75rem;
+  }
+
+  img {
+    width: 300px;
+  }
+
+  #gmail {
+    display: none;
+  }
+  #icon {
+    font-size: 10px;
+  }
+  .mid-body .brand-name {
+    font-size: 5.6rem;
+    font-weight: 650;
+  }
+  .dev1-img {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 370px) {
+  .cat-img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .mid-body .brand-name {
+    font-size: 5rem;
+    font-weight: 610;
+  }
+}
+
+@media (max-width: 345px) {
+  img {
+    width: 250px;
+  }
+
+  @media (min-width: 1500px) {
+    .cat-img {
+      width: 600px;
+      height: 350px;
+    }
+  }
+}
+
+/* About Developers css  */
+.dev-heading {
+  text-align: center;
+  color: #fff;
+  text-shadow: #403f45;
+  font-size: 3rem;
+  font-weight: bold;
+}
+#About-developers {
+  /* background: #000000;
+  background: -webkit-linear-gradient(to right, #434343, #000000);
+  background: linear-gradient(to right, #434343, #000000); */
+
+  /* width: 100%;
+  height: 100rem; */
+  padding: 2% 0%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 3rem;
+}
+.dev-card {
+  width: 600px;
+  height: 500px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.dev1-img {
+  display: inline-block;
+  height: 400px;
+  width: 400px;
+  border-radius: 6px;
+}
+.dev1-img:hover {
+  box-shadow: 4px 4px 4px 4px whitesmoke;
+}
+.fa-brands {
+  margin: 0 1rem;
+}
+.dev-links {
+  color: #c1bfbf;
+}
+.dev-links:hover {
+  color: gold;
+  transform: scale(1.3);
+  cursor: pointer;
+}
+.dev-name {
+  margin-top: 1rem;
+  color: white;
+  font-size: 2rem;
+}
+.dev-name:hover {
+  color: gold;
+}
+.dev-name-span {
+  color: rgb(0, 230, 230);
+}
+.dev1-name-link {
+  display: inline-flex;
+  text-decoration: none;
+  color: white;
+  margin-top: 2rem;
+  line-height: 2rem;
+}
+.dev1-name-link:hover {
+  color: gold;
+}
+.dev-para {
+  color: #fff;
+  margin-top: 1rem;
+}
+@media (min-width: 900px) {
+  .dev-heading {
+    font-size: 4.75rem;
+    text-shadow: 4px 4px 4px grey;
+  }
+}
+@media (min-width: 1400px) {
+  .dev-para {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 899px) {
+  .dev-heading {
+    text-shadow: 4px 4px 4px grey;
+  }
+}
+@media (max-width: 400px) {
+  .dev-heading {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .dev1-img {
+    width: 350px;
+    height: 350px;
+  }
+}
+@media (min-width: 1400px) {
+  .dev-card {
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+  }
+}

@@ -1,0 +1,269 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+    }
+    
+    .background{
+
+    height: 100vh;
+    width: 100%;
+    background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+    radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+    
+
+    
+    
+    
+    
+    }
+    .form-box{
+  
+background-color: white;
+position: absolute;
+width: 380px;
+height: 480px;
+margin-top: 30vh ;
+margin-left: 41.6%;
+border-radius: 5px;
+ background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+    radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+
+    padding: 5px;
+    overflow: hidden;
+    
+    
+    }
+
+    .button-box{
+     
+        width: 220px;
+        margin: 35px auto;
+        position: relative;
+        box-shadow: 0 0 20px 9px grey;
+        border-radius: 30px;
+    }
+    .toggle-btn{
+        padding: 10px 30px;
+        cursor: pointer;
+        background: transparent;
+        border: 0;
+        outline: none;
+        position: relative;
+        color: #fff;
+
+    }
+
+    #btn{
+
+top: 0;
+left: 0;
+position: absolute;
+width: 110px;
+height: 100%;
+background:linear-gradient(to right, #ff105f,#ffad06);
+border-radius: 30px;
+transition: .5s;
+
+    }
+
+.social-icons{
+margin: 30px auto;
+text-align: center;
+
+}
+
+.social-icons a img{
+width: 30px;
+margin : 0 5px ;
+box-shadow: 0 0 20px 0 #7f7f7f3d ;
+cursor: pointer;
+border-radius: 50%;
+
+
+
+}
+
+.input-group{
+top: 180px;
+position: absolute;
+width: 280px;
+transition: .5s;
+
+
+}
+
+.input-fields{
+
+width: 100%;
+padding: 10px 0;
+margin: 5px 0;
+border-radius: 50px;
+outline:none;
+background:transparent;
+text-align: center;
+color: #fff;
+
+
+
+}
+ ::placeholder{
+
+    color: #fff;
+
+
+}
+
+
+.submit-btn{
+
+width: 85%;
+padding: 10px 30px;
+cursor: pointer;
+display: block;
+margin: auto;
+background:linear-gradient(to right, #ff105f,#ffad06);
+border: 0;
+outline: none;
+border-radius: 30px;
+color: #fff;
+
+}
+
+.check-box{
+
+margin: 30px 10px 30px 0;
+}
+
+span{
+    color: #fff;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+
+
+}
+
+#login{
+    left:50px;
+
+}
+
+
+#register{
+    left:450px;
+    
+}
+
+
+/* media queries:- */ 
+
+@media (max-width:1024px){
+    .form-box{
+  
+ 
+        margin-left: 28.6%;
+
+        
+    }
+
+
+
+    
+@media (max-width:670px){
+    .form-box{
+  
+        
+        margin-left: 25%;
+     
+        
+    }
+
+    
+.input-fields{
+
+    width: 90%;
+    }
+
+}
+
+    
+        
+@media (max-width:550px){
+    .form-box{
+  
+        width: 300px;
+        height: 500px;
+        margin-top: 25vh ;
+        margin-left: 15%;
+        border-radius: 5px;
+        
+    }
+  
+    .input-fields{
+
+        width: 85%;
+        }
+    
+    
+.submit-btn{
+
+    width: 80%;
+    margin-left: 4px;
+   
+    }
+    
+
+}
+        
+    @media (max-width:400px){
+        .form-box{
+      
+            width: 280px;
+            height: 500px;
+            margin-top: 13vh ;
+            margin-left: 12%;
+          
+            
+        }
+          
+.input-fields{
+
+    width: 80%;
+    }
+
+  
+    .submit-btn{
+
+        width: 75%;
+       margin-left: 2px;
+       
+        }
+        
+}
+}   
+     
+@media (max-width:320px){
+    .form-box{
+  
+        width: 280px;
+        height: 520px;
+        margin-top: 0vh ;
+        margin-left: 4.5%;
+
+      
+        
+    }
+      
+.input-fields{
+
+width: 80%;
+}
+
+
+.submit-btn{
+
+    width: 70%;
+   margin-top: 1px;
+    }
+}
